@@ -1,3 +1,20 @@
+# pyvjoy
+
+pyvjoy is a set of python binding for <a href='vjoystick.sourceforge.net'>vJoy</a>. This repo is based off <a href="https://github.com/tidzo/pyvjoy">tidzo</a>'s package.
+
+### Requirements
+
+Install vJoy from http://vjoystick.sourceforge.net/site/
+
+### Installation
+
+1. pip install 
+
+
+
+
+
+
 pyvjoy is a set of Python bindings for vJoy (vjoystick.sourceforge.net)
 
 With this library you can easily set Axis and Button values on any vJoy device.  
