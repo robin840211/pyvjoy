@@ -16,14 +16,9 @@ After vJoy has installed, copy the vJoyInterface.dll file from your installation
 
 ### Installation
 
-1. pip install git+https://github.com/maxofbritton/pyvjoy
+1. pip install pyvjoy
 
 ### Usage
 
 See examples for simple use cases.
-
-
-### Example Projects
-
-https://github.com/maxofbritton/gym-iracing
 
