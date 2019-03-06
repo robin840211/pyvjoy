@@ -73,5 +73,8 @@ class VJoyDevice(object):
 	def __del__(self):
 		# free up the controller before losing access
 		self._sdk.RelinquishVJD(self.rID)
-		
-	
+
+def main():
+    pyvjoy = VJoyDevice()
+        
+if __name__ == '__main__':main()
