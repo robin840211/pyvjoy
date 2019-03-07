@@ -19,6 +19,6 @@ After vJoy and pyvjoy have been installed, you may need to copy the vJoyInterfac
 
 ### Usage
 
-With this library you can easily set Axis and Button values on any vJoy device.   Low-level bindings are provided in `pyvjoy._sdk` as well as a slightly more 'Pythonic' API in the `pyvjoy.VJoyDevice()` object.
+With this library you can easily set Axis and Button values on any vJoy device. Low-level bindings are provided in `pyvjoy._sdk`.
 
 See examples for simple use cases.
