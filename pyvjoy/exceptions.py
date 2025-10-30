@@ -1,30 +1,46 @@
+"""vJoy related exceptions"""
+
 
 class vJoyException(Exception):
-	pass
+    """Base exception for all vJoy errors"""
+    pass
+
 
 class vJoyNotEnabledException(vJoyException):
-	pass
+    """vJoy is not installed or not enabled"""
+    pass
+
 
 class vJoyFailedToAcquireException(vJoyException):
-	pass
+    """Failed to acquire vJoy device"""
+    pass
+
 
 class vJoyFailedToRelinquishException(vJoyException):
-	pass
+    """Failed to relinquish vJoy device"""
+    pass
 
 
 class vJoyButtonException(vJoyException):
-	pass
+    """Button operation failed"""
+    pass
+
 
 class vJoyDriverMismatchException(vJoyException):
-	pass
+    """vJoy driver and DLL version mismatch"""
+    pass
+
 
 class vJoyInvalidAxisException(vJoyException):
-	pass
+    """Invalid axis ID or operation"""
+    pass
+
 
 class vJoyInvalidPovValueException(vJoyException):
-	pass
+    """Invalid POV value"""
+    pass
+
 
 class vJoyInvalidPovIDException(vJoyException):
-	pass
-
-
+    """Invalid POV ID (must be 1-4)"""
+    pass
