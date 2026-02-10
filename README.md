@@ -1,4 +1,4 @@
-### *This is a fork version of [pyvjoy from maxofbritton](https://github.com/maxofbritton/pyvjoy), with just few changes.*
+### *This is a fork version of [pyvjoy from maxofbritton](https://github.com/maxofbritton/pyvjoy) which based off [tidzo's package](https://github.com/tidzo/pyvjoy), with just few changes and less API different.*
 
 
 # pyvjoy

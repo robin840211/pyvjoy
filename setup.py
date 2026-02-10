@@ -5,7 +5,7 @@ setuptools.setup(
     version='1.0.2',
     description='Python bindings for vJoy',
     url='https://github.com/maxofbritton/pyvjoy',
-    author='Maximilian Britton',
+    author='tidzo, Maximilian Britton, robin840211',
     author_email='maximilian.briton@gmail.com',
     license='MIT',
     classifiers=[
